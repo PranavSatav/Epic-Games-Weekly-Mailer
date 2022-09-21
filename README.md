@@ -14,9 +14,14 @@ How to set-up -
 
 How to create a CRON -
 1. Click on CREATE CRONJOB
-2. Give title, put api.php link in URL => it will look like this [xyz.webhostapp.com/api.php]
+2. Give title, put index.php link in URL => it will look like this [xyz.webhostapp.com/index.php]
 3. Select CUSTOM >> Press & Hold CTRL and Select 1 & 7 & 14 & 21 & 28 Days
-4. >> Press & Hold CTRL, Select all weeks, Select all Months
-5. >> Press & Hold CTRL, Select 9 Hours & 30 Minutes
+4. Press & Hold CTRL, Select all weeks, Select all Months
+5. Press & Hold CTRL, Select 9 Hours & 30 Minutes
 6. Done, Create the CRON, Enjoy with Lifetime Weekly Updates on your mail..
+
+Note -
+1. RapidAPI has HARD LIMIT of 10 Calls per Month (But we will call the api only 4 times a month)
+2. Dont ever access index.php directly in your browser, as it will use 1 API CALL / 10 per month.
+3. Check Email in SPAM, mark as Safe!
  
