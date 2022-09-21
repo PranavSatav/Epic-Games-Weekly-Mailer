@@ -1,7 +1,7 @@
 # Epic-Games-Weekly-Mailer
 Get a mail of free Epic Games for the week.
 
-How to set-up -
+🎲 How to set-up -
 1. Goto your favourite hosting [000webhost RECOMMENDED]
 2. Upload index.php, api.php, staticapi.php [optional] onto root directory.
 3. Goto [RapidAPI](https://rapidapi.com/), make an account, search "Free Epic Games"
@@ -12,7 +12,7 @@ How to set-up -
 8. Replace abc@gmail.com, xyz@gmail.com with your own mail at last lines :)
 9. Goto https://cron-job.org/en/ Sign Up, Create a Cron for every Week..
 
-How to create a CRON -
+🪄 How to create a CRON -
 1. Click on CREATE CRONJOB
 2. Give title, put index.php link in URL => it will look like this [xyz.webhostapp.com/index.php]
 3. Select CUSTOM >> Press & Hold CTRL and Select 1 & 7 & 14 & 21 & 28 Days
@@ -20,8 +20,10 @@ How to create a CRON -
 5. Press & Hold CTRL, Select 9 Hours & 30 Minutes
 6. Done, Create the CRON, Enjoy with Lifetime Weekly Updates on your mail..
 
-Note -
+📟 Note -
 1. RapidAPI has HARD LIMIT of 10 Calls per Month (But we will call the api only 4 times a month)
 2. Dont ever access index.php directly in your browser, as it will use 1 API CALL / 10 per month.
 3. Check Email in SPAM, mark as Safe!
  
+📡 For Developers -
+--> Included staticapi.php file, a clone of actual api, where you can show your magic and make a website out of it..
