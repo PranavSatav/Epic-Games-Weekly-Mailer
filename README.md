@@ -15,6 +15,11 @@
    --> mail.php (Sends Mail)<br>
    --> index.php (Displays Frontend)<br>
    --> epic_games_data.php (Saves API Response)<br>
+   
+[SCREENSHOTS]<br><br>
+<img src="https://i.imgur.com/ARdL063.png" width="80%"><br><h2>Email UI</h2>
+<img src="https://i.imgur.com/LMcWLL2.png" width="30%">
+
 
 # [SETUP FOR V1] Epic-Games-Weekly-Mailer
 Get a mail of free Epic Games for the week.
