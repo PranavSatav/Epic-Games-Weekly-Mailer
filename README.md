@@ -15,7 +15,12 @@
    --> mail.php (Sends Mail)<br>
    --> index.php (Displays Frontend)<br>
    --> epic_games_data.php (Saves API Response)<br>
-   
+<pre>
+What's new in v2 :
+            - New Homepage UI 
+            - Now Game list is updated only on button click and not everytime
+            - Everytime games are fetched, they are fetched offline without any API Call
+            - Mail UI Redesigned</pre>
 [SCREENSHOTS]<br><br>
 <img src="https://i.imgur.com/ARdL063.png" width="80%"><br><h2>Email UI</h2>
 <img src="https://i.imgur.com/LMcWLL2.png" width="30%">
