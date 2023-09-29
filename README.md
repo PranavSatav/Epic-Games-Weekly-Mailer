@@ -1,4 +1,22 @@
-# Epic-Games-Weekly-Mailer
+# [SETUP FOR V2] Epic-Games-Weekly-Mailer v2
+1. Goto your favourite hosting [000webhost RECOMMENDED]
+2. Upload all files from V2 Folder onto root directory.
+3. Goto [RapidAPI](https://rapidapi.com/), make an account, search "Free Epic Games"
+4. Subscribe to API (it's free!) 
+5. Select API Language to PHP > cURL
+6. Replace only these lines in api.php<br><br>
+            "X-RapidAPI-Host: epic-free-games.p.rapidapi.com",<br>
+            "X-RapidAPI-Key: ---------------"<br>
+7. Goto mail.php, replace with your own email id..
+   [ See V1 Documentation for CronJob ]
+
+8. Structure - <br>
+   --> api.php (Calls API)<br>
+   --> mail.php (Sends Mail)<br>
+   --> index.php (Displays Frontend)<br>
+   --> epic_games_data.php (Saves API Response)<br>
+
+# [SETUP FOR V1] Epic-Games-Weekly-Mailer
 Get a mail of free Epic Games for the week.
 
 🎲 How to set-up -
@@ -20,7 +38,7 @@ Get a mail of free Epic Games for the week.
 5. Press & Hold CTRL, Select 9 Hours & 30 Minutes
 6. Done, Create the CRON, Enjoy with Lifetime Weekly Updates on your mail..
 
-📟 Note -
+📟 Note - [ Note Depreceated ]
 1. RapidAPI has HARD LIMIT of 10 Calls per Month (But we will call the api only 4 times a month)
 2. Dont ever access index.php directly in your browser, as it will use 1 API CALL / 10 per month.
 3. Check Email in SPAM, mark as Safe!
